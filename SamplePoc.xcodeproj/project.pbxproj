@@ -12,6 +12,7 @@
 		843471871E680D1400620916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843471851E680D1400620916 /* Main.storyboard */; };
 		843471891E680D1400620916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843471881E680D1400620916 /* Assets.xcassets */; };
 		8434718C1E680D1400620916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434718A1E680D1400620916 /* LaunchScreen.storyboard */; };
+		8464F57A1E83AAEF00CDA52A /* x.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8464F5791E83AAEF00CDA52A /* x.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		843471881E680D1400620916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8434718B1E680D1400620916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8434718D1E680D1400620916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464F5791E83AAEF00CDA52A /* x.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = x.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		843471751E680D1400620916 = {
 			isa = PBXGroup;
 			children = (
+				8464F5791E83AAEF00CDA52A /* x.plist */,
 				843471801E680D1400620916 /* SamplePoc */,
 				8434717F1E680D1400620916 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8434718C1E680D1400620916 /* LaunchScreen.storyboard in Resources */,
+				8464F57A1E83AAEF00CDA52A /* x.plist in Resources */,
 				843471891E680D1400620916 /* Assets.xcassets in Resources */,
 				843471871E680D1400620916 /* Main.storyboard in Resources */,
 			);
@@ -267,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.SamplePoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb5cc13a-1035-4c6c-a813-98ab9f7381fc";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
 				SWIFT_VERSION = 3.0;
 			};
@@ -282,7 +287,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.SamplePoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "fb5cc13a-1035-4c6c-a813-98ab9f7381fc";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
 				SWIFT_VERSION = 3.0;
 			};
