@@ -271,7 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.SamplePoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fb5cc13a-1035-4c6c-a813-98ab9f7381fc";
+				PROVISIONING_PROFILE = "f823c983-aeec-4210-804c-c6f7592cf985";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS WildCard Profile";
 				SWIFT_VERSION = 3.0;
 			};
